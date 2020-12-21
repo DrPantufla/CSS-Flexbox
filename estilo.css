@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center ;
+    padding: 10px 5%;
+    border-bottom: 1px solid #776e6e;
+}
+.marca{
+    margin: auto;
+}
+
+.marca h1{
+
+    font-size: 10px;
+    padding: 10px 10px;
+
+}
+
+nav{
+    margin: auto;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    
+
+}
+a{
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: capitalize; 
+   color: rgb(97, 108, 170);
+   transition: all 0.3s;
+   font-weight: 700;
+}
+
+a:hover{
+    color:coral;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.boton{
+    margin: auto;
+    background-color: crimson;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+}
+.boton:hover{
+    background-color: rgb(101, 38, 143);
+    color: white;
+}
+header .marca{
+    order: 0;
+}
+header nav{
+order: 1;
+}
+
+header .boton{
+    order: 2;
+}
