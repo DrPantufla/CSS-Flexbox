@@ -72,3 +72,43 @@ order: 1;
 header .boton{
     order: 2;
 }
+
+section{
+    padding: 10px 5%;
+    border: 1px solid brown;
+}
+
+section .equipo{
+    display: flex;
+    padding: 20px 1%;
+    margin: auto;
+}
+
+section .equipo div{
+    display: inline-block;
+    margin: 10px 20px;
+    border: 1px solid rgb(54, 82, 141);
+}
+
+section .equipo div:nth-child(odd){
+    background: #776e6e;
+}
+
+section .equipo div:nth-child(even){
+    background: #833939;
+}
+
+section .equipo div img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    
+
+}
+
+section .equipo div img figcaption{
+    display: block;
+    
+}
+
+
