@@ -73,6 +73,15 @@ header .boton{
     order: 2;
 }
 
+
+
+
+
+/* Aqui empieza el contenido */
+
+
+
+
 section{
     padding: 10px 5%;
     border: 1px solid brown;
@@ -80,35 +89,44 @@ section{
 
 section .equipo{
     display: flex;
+    justify-content: center;
     padding: 20px 1%;
-    margin: auto;
+    
 }
 
 section .equipo div{
-    display: inline-block;
-    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    margin: 5px 10px;
     border: 1px solid rgb(54, 82, 141);
 }
 
 section .equipo div:nth-child(odd){
+    
     background: #776e6e;
 }
 
 section .equipo div:nth-child(even){
+    
     background: #833939;
 }
-
-section .equipo div img{
-    width: 100px;
-    display: block;
-    margin: auto;
+section .equipo div figure{
+    justify-content: center;
     
-
-}
-
-section .equipo div img figcaption{
-    display: block;
     
 }
 
+section .equipo div figure img{
+   width: 150px;
+   border-radius: 50px;
+   align-content: center;
+    
+    
+
+}
 
