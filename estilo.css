@@ -64,13 +64,16 @@ a:hover{
 }
 header .marca{
     order: 0;
+    flex-shrink: 3;
 }
 header nav{
 order: 1;
+flex-shrink: 3;
 }
 
 header .boton{
     order: 2;
+    flex-shrink: 2;
 }
 
 
@@ -85,6 +88,25 @@ header .boton{
 section{
     padding: 10px 5%;
     border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    float: left;
+}
+
+section div h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: 'Bangers', cursive;
+
 }
 
 section .equipo{
@@ -98,13 +120,46 @@ section .equipo div{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
     padding: 20px;
     width: 200px;
-    height: 400px;
+    height: 423px;
     margin: 5px 10px;
-    border: 1px solid rgb(54, 82, 141);
+    border-radius: 40px;
+    box-shadow: 17px 14px 27px #222227;
+    transition: all 0.3s;
+
+    
+   
 }
+
+section .equipo div:hover{
+    float: left;
+    width:300px;
+    height: 500px;
+    padding: 20px;
+
+    margin: 5px 10px;
+    border-radius: 40px;
+    overflow:hidden;
+}
+
+section .descripcion p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+}
+
+section .equipo div h3{
+    text-align: center;
+    font-family: 'Langar', cursive;
+
+}
+section .equipo div p{
+    text-align: center;
+    
+}
+
+
 
 section .equipo div:nth-child(odd){
     
@@ -116,17 +171,65 @@ section .equipo div:nth-child(even){
     background: #833939;
 }
 section .equipo div figure{
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
     
 }
 
+
 section .equipo div figure img{
-   width: 150px;
+   width: 70%;
+   padding-bottom: 20px;
    border-radius: 50px;
-   align-content: center;
+
+}
+
+
+section .equipo div figure figcaption{
+    align-self: center;
+}
+
+
+
+
+
+/* --------------------ASIDE ----------------------------------*/
+
+
+aside{
+    width: 17%;
+    float: left;
+    display: flex;
+    flex-direction: column;
     
-    
+}
+
+aside h3, h4, a, p{
+    text-align: center;
+    padding: 10px;
+
+}
+
+aside h3,h4{
+    font-size: 25px;
+
+}
+
+aside a{
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+
+
+aside p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+footer{
 
 }
 
