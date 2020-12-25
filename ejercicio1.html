@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parabrisas Meli</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Indie+Flower&family=Langar&display=swap');
 
@@ -21,10 +22,9 @@
         <nav>
             <li><a href="">Inicio</a></li>
             <li><a href="">Quiénes somos</a></li>
-            <li><a href="">Nuestro equipo</a></li>
-            <li><a href="">Ubicacion</a></li>
+            <li><a href="#equipo">Nuestro equipo</a></li>
             <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </nav>
     
         <a href="" class="boton">Presupuesto</a>
@@ -41,7 +41,7 @@
 
         <h2>Nuestro Equipo</h2>
 
-        <div class="equipo">
+        <div class="equipo" id="equipo">
             
             <div >
                 <h3>Roberto Meli</h3>
@@ -79,19 +79,46 @@
 
     </section>
     
+    
+   
+
 
     <aside>
         <h3>Redes Sociales</h3>
-        <a href="https://www.facebook.com/Parabrisas-Meli-1396794567101019">facebook</a>
-        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.facebook.com/Parabrisas-Meli-1396794567101019"><i class="fab fa-facebook"></i>facebook</a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>Instagram</a>
         <h4>Comunidad</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ut vitae debitis repudiandae minus error qui quidem est tenetur molestias quae recusandae fuga mollitia animi nesciunt, voluptas aperiam nemo nihil!</p>
 
     </aside>
-
-    <div></div>
+    
+    <div class="servicios">
+        <div class="servicio1">Servicio 1</div>
+        <div class="servicio2">Servicio 2</div>
+        <div class="servicio3">Servicio 3</div>
+        <div class="servicio4">Servicio 4</div>
+        <div class="servicio5">Servicio 5</div>
+        <div class="servicio6">Servicio 6</div>
+    </div>
+   
     <footer>
-        <p>Derechos reservados</p>
+            <div class="contacto" id="contacto">
+                <div class="direccion">
+                    <p>Direccíon</p>
+                    <p>Frente al Home Center, <strong>Temuco</strong></p>
+                </div>
+                
+                <div class="telefono">
+                    <p>Telefóno</p>
+                    <p>+569 1234 5678</p>
+                </div>
+            
+            </div>
+            
+            <img src="img/ubicacion.png" alt="ubicacion en mapa">
+       
+
+            <p class="licencia">Derechos reservados</p>
         
 
     </footer>
